@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Due Sunday, February 28 @ midnight through Github**
+**Due Sunday, February 27 @ midnight through Github**
 
 Create a data display with the NYC HANES data to answer 
 
@@ -33,7 +33,7 @@ dim(dat)
 
 ```
 
-2. You will want to select some subset of variables from this data set. To know which ones you want, you can refer to the materials from class and the [Variable Codebook](http://nychanes.org/wp-content/uploads/sites/6/2019/01/28283961_NYC-HANES_codebook_Public_V3_011019.pdf){target="_blank"}. If you want to recode any of the variables in the data set, as we did in the class notes, you can do that in the code chunk here as well. Be sure to think about missing values and how you want to handle them.
+2. You will want to select some subset of variables from this data set. To know which ones you want, you can refer to the materials from class and the [Variable Codebook](https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/epidemiology/sites/default/files/nyc-hanes-datasets-and-resources-public-dataset-codebook.pdf){target="_blank"}. If you want to recode any of the variables in the data set, as we did in the class notes, you can do that in the code chunk here as well. Be sure to think about missing values and how you want to handle them, as well as the ordering of factor levels.
 ```{r}
 ### put recoding data here
 ### you can use comments like this to describe what you are doing
@@ -56,7 +56,7 @@ Write your text here.
 
 * First, knit your .Rmd file to see if it will compile.  If it doesn't knit, you can still follow the steps below to submit your assignment, but please try to resolve the knitting issues before you submit.  You can reach out to us at phbiostats@jhu.edu for help!
 * Next you need to **commit** the changes you've made to the document.  Click the colorful Git button at the top of the RStudio window and select "Commit" from the menu.
-* In the window that opens, **stage** your changes by clicking the check boxes next to the `Asst2-1.Rmd` and `Asst2-1.html` files.
+* In the window that opens, **stage** your changes by clicking the check boxes next to the `Asst2-1.Rmd` file.
 * In the "Commit message" box, type a short description of what changes you've made, something like: `Completed assignment`
 * Click the "Commit" button on the bottom right.
 * You'll see a window that will tell you about the changes that you've made.  Click "Close" to close the window.  You've successfully committed! You can close this commit window now.
