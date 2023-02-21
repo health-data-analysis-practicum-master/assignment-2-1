@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Due Sunday, February 27 @ midnight through Github**
+**Due Sunday, February 26 @ midnight through Github**
 
 Create a data display with the NYC HANES data to answer 
 
@@ -50,7 +50,7 @@ dim(dat)
 
 Write your text here.
 
-5. When you have a final data display read to go, take a screenshot or download your display and post on Piazza under the Assignment 2-1 Display thread.  You are welcome to post your screenshot anonymously to your classmates.
+5. When you have a final data display read to go, take a screenshot or download your display and post on Piazza under the Assignment 2-1 Results thread.  You are welcome to post your screenshot anonymously to your classmates.
 
 6. When you are ready to submit your assignment, do ALL of the following:
 
